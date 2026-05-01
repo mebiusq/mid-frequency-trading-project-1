@@ -1,0 +1,25 @@
+project_name: "RobustPairsTrading"
+
+initial_capital: 20000000
+transaction_cost: 0.001
+train_start: '2017-01-01'
+train_end: '2021-12-31'
+test_start: '2022-01-01'
+
+tickers:
+  - 'BTC-USD'
+  - 'ETH-USD'
+  - 'LTC-USD'
+  - 'XRP-USD'
+  - 'BNB-USD'
+  - 'ADA-USD'
+
+timeframe: '1d'
+
+rolling_window: 60
+z_window: 20
+entry_threshold: 2
+exit_threshold: 0.5
+stop_loss: 4
+max_half_life: 30
+max_pairs: 5

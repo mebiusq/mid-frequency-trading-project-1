@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "first-project-template"
+version = "0.1.0"
+description = "Robust Pairs Trading Strategy"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+yfinance = "^0.2.0"
+matplotlib = "^3.7.0"
+statsmodels = "==0.14.6"
+pyyaml = "^6.0"
+jinja2 = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
